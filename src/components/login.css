@@ -1,0 +1,55 @@
+.login{
+   justify-content: center;
+   align-items: center;
+}
+
+.logo{
+    text-align: center;
+    margin: 5% 0
+}
+
+.btn-primary{
+    background-color: #870b4e;
+    border-color: #870b4e;
+    padding: 3% 0;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f4b300;
+    border-color: #f4b300;
+    border-radius: 5px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(244, 179, 0, .5);
+    background-color: #f4b300;
+    border-color: #f4b300;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+
+.errorBox{
+    font-size: 12px; 
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f4b300;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(244, 179, 0, .5);
+}
+
+#root{
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
